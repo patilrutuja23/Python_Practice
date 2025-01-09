@@ -114,3 +114,37 @@ print(y.rfind("o"))
 # for same we can use index
 print(y.index("o"))
 print(y.rindex("o"))
+
+#concatination of string
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+c = a + " " + b
+print(c)
+
+age = 20
+text = "My age is "
+print(text + str(age))
+
+
+# format method in string
+# {} are placeholder in pyhton it will replace our text with {} while executing
+
+age = 20
+text = "I am {} year old"  #I am -- year old
+print(text.format(age))
+
+# for multiple value
+age = 20
+school = "ABCD University"
+text1 = "I am {} year old & I studied in {}"  #I am 20 year old I studied in ABCD University
+print(text1.format(age,school))
+
+# another method
+text2 = "I am {} year old & I studied in {}".format(age,school)
+print(text2)
+
+# another method
+text3 = f"I am {age} year old & I studied in {school}"
+print(text3)
