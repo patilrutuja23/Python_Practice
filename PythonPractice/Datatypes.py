@@ -40,3 +40,10 @@ c1 = 3
 c2 = 5
 c3 = complex(c1,c2)
 print(c3)
+
+
+a = 5
+b = 2
+print(a**b)
+print(a%b)
+print(a/b)
